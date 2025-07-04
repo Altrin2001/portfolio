@@ -8,7 +8,7 @@ const projects = [
     title: "Portfolio",
     desc: 'A personal portfolio website showcasing my skills, projects, and contact info using a modern and responsive tech stack.',
     technologies: ['React', 'Vite', 'TailwindCSS'],
-    github: 'https://github.com/Altrin2001/evento-creators-omega-flow',
+    github: 'https://github.com/Altrin2001/portfolio',
     image: Portfolio
   },
   {

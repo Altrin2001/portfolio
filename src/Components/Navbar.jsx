@@ -18,7 +18,7 @@ function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between py-3 relative">
           {/* Logo */}
           <a href="#" className="flex items-center space-x-2">
-            <p className="text-red-600 text-3xl font-bold">Portfolio</p>
+            <p className="text-red-600 text-3xl font-bold">Altrin Kingson</p>
           </a>
 
           {/* Desktop Nav */}
