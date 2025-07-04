@@ -1,0 +1,47 @@
+ @import "tailwindcss";
+
+.select-green *::selection {
+    color: var(--tw-color-green-500, #22c55e);
+    background-color: var(--tw-color-yellow-200, #fef08a);
+  }
+
+/* hero section span css start */
+
+.tech-carousel {
+  display: inline-block;
+  height: 2rem; /* Enough for icon + text */
+  overflow: hidden;
+  vertical-align: middle;
+  position: relative;
+}
+
+.tech-carousel .carousel-inner {
+  display: flex;
+  flex-direction: column;
+  animation: slide-tech 8s infinite;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 2rem; /* Match the container height */
+  justify-content: center;
+}
+
+@keyframes slide-tech {
+0%    { transform: translateY(0); }
+          11.11% { transform: translateY(-2rem); }
+          22.22% { transform: translateY(-4rem); }
+          33.33% { transform: translateY(-6rem); }
+          44.44% { transform: translateY(-8rem); }
+          55.55% { transform: translateY(-10rem); }
+          66.66% { transform: translateY(-12rem); }
+          77.77% { transform: translateY(-14rem); }
+          88.88% { transform: translateY(-16rem); }
+          100%   { transform: translateY(0); }
+        }
+/* hero section span css end */
+
+
+
