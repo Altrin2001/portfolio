@@ -1,12 +1,23 @@
-# React + Vite
+<h1 align="center">Hi 👋, I'm Altrin-Kin</h1>
+<h3 align="center">🚀 Full Stack Java Developer | Creative Designer | System Thinker</h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=450&lines=Developer+%7C+Designer+%7C+Dreamer;Crafting+Code+with+Creativity" alt="Typing SVG" />
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✨ About Me
+- 👨‍💻 I’m a passionate Full Stack Java Developer who loves clean code & design.
+- 🎯 Focused on crafting high-performance backends and intuitive frontends.
+- 🔭 Currently working on personal projects and expanding my knowledge in **Spring Boot** and **System Architecture**.
+- 🌱 Always exploring new tools, trends, and technologies in the Dev world.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠️ Tech Stack
+```java
+Languages:     Java, HTML, CSS, JavaScript, SQL  
+Frameworks:    Spring Boot, JDBC, JSP, Servlet  
+Tools:         NetBeans, IntelliJ, Git & GitHub, VS Code  
+Databases:     MySQL, MSSQL  
