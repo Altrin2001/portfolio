@@ -17,7 +17,7 @@
 
 ### 🛠️ Tech Stack
 ```java
-Languages:     Java, HTML, CSS, JavaScript, SQL  
+Languages:     Java, HTML, CSS, JavaScript, SQL, React  
 Frameworks:    Spring Boot, JDBC, JSP, Servlet  
 Tools:         NetBeans, IntelliJ, Git & GitHub, VS Code  
 Databases:     MySQL, MSSQL  
