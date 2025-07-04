@@ -8,6 +8,7 @@ import Particle from './Components/Particle'
 import Skills from './Components/Skills'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
+import Experience from './Components/Experience'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Navbar />
       <Hero />
       <Skills />
+      <Experience />
       <Projects />
       <Contact />
     </>

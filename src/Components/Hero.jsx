@@ -126,7 +126,7 @@ function Hero() {
 
             {/* CV Download Button */}
             <div className="flex justify-center">
-              <a href="#" download className="inline-flex items-center gap-2 justify-center px-6 py-2 text-white text-lg font-semibold bg-gradient-to-r from-red-500 via-pink-500 to-blue-600 
+              <a href="/Altrinpdf.pdf" download className="inline-flex items-center gap-2 justify-center px-6 py-2 text-white text-lg font-semibold bg-gradient-to-r from-red-500 via-pink-500 to-blue-600 
                 rounded-full shadow-blue-300 transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,0,0,0.6)] hover:scale-105 hover:text-gray-200">
                 <FaDownload /> Download CV
               </a>
