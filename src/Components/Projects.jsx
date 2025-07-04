@@ -66,7 +66,10 @@ const Projects = () => {
   const visibleProjects = getVisibleProjects();
 
   return (
-    <section id="projects" className="w-full py-20 px-4 sm:px-8 relative bg-gray-900">
+    <section
+      id="projects"
+      className="w-full py-20 px-4 sm:px-8 relative bg-gray-900"
+    >
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-100 mb-2">
@@ -91,9 +94,9 @@ const Projects = () => {
             {visibleProjects.map((project) => (
               <div
                 key={project.id}
-                className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
+                className="relative bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 z-10"
               >
-                <div className="h-48 bg-gray-200 overflow-hidden">
+                <div className="h-48 bg-gray-200 overflow-hidden z-0">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -101,25 +104,12 @@ const Projects = () => {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-medium text-gray-800 mb-2">
-                    {project.title}
-                  </h3>
-                  <p className="text-gray-600 mb-4">{project.desc}</p>
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    {project.technologies.map((tech, index) => (
-                      <span
-                        key={index}
-                        className="px-3 py-1 bg-red-100 text-blue-800 text-xs rounded-full"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
+                  ...
                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors underline"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors underline z-20"
                   >
                     <FiGithub className="mr-2" /> View Code
                   </a>
@@ -144,8 +134,8 @@ const Projects = () => {
               onClick={() => setCurrentIndex(index * projectsPerPage)}
               className={`w-3 h-3 rounded-full transition-colors ${
                 currentIndex === index * projectsPerPage
-                  ? 'bg-blue-600'
-                  : 'bg-gray-300 hover:bg-gray-400'
+                  ? "bg-blue-600"
+                  : "bg-gray-300 hover:bg-gray-400"
               }`}
               aria-label={`Go to page ${index + 1}`}
             />
