@@ -43,5 +43,15 @@
         }
 /* hero section span css end */
 
+/* headings animation start  */
 
+@keyframes gradientMove {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
 
+/* headings animation end   */

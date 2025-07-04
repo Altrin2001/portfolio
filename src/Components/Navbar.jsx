@@ -18,7 +18,14 @@ function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between py-3 relative">
           {/* Logo */}
           <a href="#" className="flex items-center space-x-2">
-            <p className="text-red-600 text-3xl font-bold">Altrin Kingson</p>
+            <h2
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-extrabold text-center bg-gradient-to-l from-red-500 via-green-500 to-yellow-400
+    bg-[length:300%_300%] bg-clip-text text-transparent 
+    [animation:gradientMove_4s_ease-in-out_infinite] 
+    drop-shadow-[0_0_20px_rgba(255,0,255,0.6)]"
+            >
+              Altrin Kingson
+            </h2>
           </a>
 
           {/* Desktop Nav */}
