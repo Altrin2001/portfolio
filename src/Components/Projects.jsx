@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Portfolio from '../assets/Portfolio.PNG';
+import portfolio1 from '../assets/portfolio1.jpeg';
 import { FiChevronLeft, FiChevronRight, FiGithub } from 'react-icons/fi';
 
 const projects = [
@@ -9,7 +9,7 @@ const projects = [
     desc: 'A personal portfolio website showcasing my skills, projects, and contact info using a modern and responsive tech stack.',
     technologies: ['React', 'Vite', 'TailwindCSS'],
     github: 'https://github.com/Altrin2001/portfolio',
-    image: Portfolio
+    image: portfolio1
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projects = [
     desc: 'A hotel booking and management platform with user/admin roles, secure authentication, and cloud deployment.',
     technologies: ['React', 'TailwindCSS', 'SpringBoot', 'SpringSecurity', 'AWS', 'MySQL'],
     github: 'https://github.com/Altrin2001/evento-creators-omega-flow',
-    image: Portfolio
+    image: portfolio1
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const projects = [
     desc: 'A Java Swing desktop application for managing boutique operations including orders, inventory, and customer profiles.',
     technologies: ['Core Java', 'Swing', 'MS SQL'],
     github: 'https://github.com/Altrin2001/evento-creators-omega-flow',
-    image: Portfolio
+    image: portfolio1
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const projects = [
     desc: 'A web-based hotel management system with user roles, product catalog, order processing, and responsive UI.',
     technologies: ['Core Java', 'JSP', 'MS SQL', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     github: 'https://github.com/Altrin2001/evento-creators-omega-flow',
-    image: Portfolio
+    image: portfolio1
   }
 ];
 
