@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Altrin-Kin</h1>
+<h1 align="center">Hi 👋, I'm Altrin-Kingson</h1>
 <h3 align="center">🚀 Full Stack Java Developer | Creative Designer | System Thinker</h3>
 
 <p align="center">
