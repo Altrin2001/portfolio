@@ -2,6 +2,7 @@ import React from 'react';
 import facebook from '../assets/facebook.jpg';
 import github from '../assets/githup.jpg';
 import instagram from '../assets/instagram.jpg';
+import background from '../assets/background.jpg';
 import linkedin from '../assets/linkedin.jpg';
 import { Typewriter } from 'react-simple-typewriter';
 import { FaJava, FaDownload } from 'react-icons/fa';
@@ -13,7 +14,15 @@ import altrin from '../assets/altrin.png';
 
 function Hero() {
   return (
-    <div className="relative overflow-hidden min-h-[550px] sm:min-h-[660px] flex flex-col" >
+    <div
+      className="relative overflow-hidden min-h-[550px] sm:min-h-[660px] flex flex-col"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       {/* Glowing circle background */}
      <div
      className="absolute z-0 
@@ -47,28 +56,28 @@ function Hero() {
               className="flex space-x-4 mb-6"
               aria-label="social media links"
             >
-              <a href="#" aria-label="facebook">
+              <a href="https://www.facebook.com/share/1L12D7RzqB/" aria-label="facebook">
                 <img
                   className="rounded-full w-14 h-14 hover:scale-110 transition-transform bg-blue-500"
                   src={facebook}
                   alt="Facebook"
                 />
               </a>
-              <a href="#" aria-label="instagram">
+              <a href="https://www.instagram.com/altrin_kingson/" aria-label="instagram">
                 <img
                   className="rounded-full w-14 h-14 hover:scale-110 transition-transform bg-pink-500"
                   src={instagram}
                   alt="Instagram"
                 />
               </a>
-              <a href="#" aria-label="linkedin">
+              <a href="https://www.linkedin.com/in/altrin-kingson/" aria-label="linkedin">
                 <img
                   className="rounded-full w-14 h-14 hover:scale-110 transition-transform bg-blue-700"
                   src={linkedin}
                   alt="LinkedIn"
                 />
               </a>
-              <a href="#" aria-label="github">
+              <a href="https://github.com/Altrin2001" aria-label="github">
                 <img
                   className="rounded-full w-14 h-14 hover:scale-110 transition-transform bg-gray-700"
                   src={github}
@@ -78,7 +87,7 @@ function Hero() {
             </div>
 
             {/* Title and Subtitle */}
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold text-gray-900 mb-2">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold text-emerald-400 mb-2">
               Hi! I'm{" "}
               <span className="text-pink-400 md:text-fuchsia-500 sm:text-green-400">
                 Altrin<sup>Kingson</sup>
@@ -101,7 +110,7 @@ function Hero() {
               />
             </h2>
             <br />
-            <p className="mb-8 leading-relaxed text-black max-w-lg">
+            <p className="mb-8 leading-relaxed text-white max-w-lvw lg:font-serif mt-1 lg:text-2xl">
               I am a passionate{" "}
               <span className="font-semibold bg-gradient-to-r from-blue-500 via-red-500 to-green-400 bg-clip-text text-transparent">
                 Java Full Stack Developer
