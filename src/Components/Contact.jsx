@@ -25,7 +25,7 @@ const Contact = () => {
       title: 'Sending to WhatsApp...',
       text: 'Your message is being prepared!',
       icon: 'success',
-      timer: 5000,
+      timer: 2000,
       showConfirmButton: false,
       timerProgressBar: true
     });
